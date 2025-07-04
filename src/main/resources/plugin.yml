@@ -1,0 +1,17 @@
+name: Koth
+version: '${project.version}'
+main: dogged.koth.Koth
+api-version: '1.21'
+commands:
+  kothwand:
+    description: grants the wand for opening koth settings and setting up the koth arena
+    usage: </command>
+  stopkoth:
+    description: stops the koth until /startkoth is ran
+    usage: </command>
+  startkoth:
+    description: starts the koth until /stopkoth is ran
+    usage: </command>
+  help:
+    description: koth help menu
+    usage: </command>
